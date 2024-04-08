@@ -33,8 +33,8 @@
 * 메인페이지 -> 사이트명
 * 메인페이지 -> 사이트명 - 광고문구추가 or 사이트명 | 광고문구추가
 * 서브페이지 -> 페이지명 | 사이트명
-* ex) 책이름-저자명 | 서점명
-* ex) 판매아이템명 | 사이트명
+* ex&#41; 책이름-저자명 | 서점명
+* ex&#41; 판매아이템명 | 사이트명
 ---
 ## h1~h6 제목태그(block tag)
 * h1~h3태그는 meta keywords와 동일한 검색키워드로 활용된다.(대제목일수록 높음)
@@ -99,7 +99,35 @@
 * 1&#41; 파비콘 크기로 이미지 다운받거나 편집하기
 * 2&#41; html에서 head안에 link태그로 `favicon` href주소 연결하기
 ---
-## 이미지태그 `img`
+## 이미지태그 `img` (inline)
 * inline tag이다. a태그와 같이 많이쓰임
 * 의미가 있는 이미지라면 alt에 적혀있는 문구작성 또는 이미지의 의미를 적어놓는다.
 * 의미가 없다면 alt는 쓰되, 내용은 적지않는다.
+---
+## figure, figcaption 태그
+* figure 틀, figcaption 설명
+* figure는 블럭, figcaption은 인라인이다.
+---
+## video 태그
+* video 태그안에 속성값을 적는다. (autoplay, mute, loop, controls)
+* mp4확장자 파일을 사용하면 좋다. (사파리에서 mp4이외 작동 불가)
+* 유튜브 영상 퍼온뒤 주소뒤에 ?추가후 속성값을 적는다. (0 false, 1 true), 그리고 다른 속성을 이으려면 &를 쓴다.
+* ex&#41; 유튜브 주소?autoplay=1&mute=1&loop=1
+---
+## class, id 많이 사용하는 키워드
+* wrapper, wrap, area 전체 묶는 영역
+* contents, container 중~소 영역 묶는 영역
+* group, g 간단한 소그룹 영역
+* top, btm, left, right 레이아웃 방향을 의미하는 키워드
+* ex&#41; 의미있는단어_영역명
+* ex&#41; product_wrap, item_area, price_g, main_contents, top_btn
+---
+## div, span 그룹태그
+### div
+* 인라인과 블록이 2개 이상 형제일 경우 묶어주는 그룹태그
+* 레이아웃 기준 1행에 2열 이상 배치일 경우
+* 특정 의미를 가진 행에 같은 디자인 요소가 배치된 경우
+---
+### span
+* 인라인이 2개 이상 형제일 경우 묶는 그룹태그
+* 의미없는 디자인 요소 인라인 처리 필요 시 사용

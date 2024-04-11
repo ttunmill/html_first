@@ -143,3 +143,18 @@
 * gnb (global navigation bar) - nav 묶이는 대상
 * lnb (local navigation bar)
 * snb (side navigation bar)
+---
+## ul, ol, li
+* 순서 있는 목록 - ol
+* 순서 없는 목록 - ul
+* 목록의 내용은 li로 만든다.
+---
+## details, summary
+* `summary` 태그의 조상 요소에 반드시 `details` 태그가 있어야 합니다.
+* 만약 `details` 태그에 `summary` 태그가 없다면 사용자 브라우저는 자체적인 요약 정보나 제목을 `details` 태그에 제공합니다
+---
+## footer, mark, main, time
+* `footer` : 글이나 콘텐츠 영역에 대한 작성자, 저작권 정보, 관련 문서에 대한 링크 등의 내용을 나타냅니다.
+* `mark` : 형광펜으로 칠한 것처럼 하이라이트된(highlighted) 텍스트를 정의할 때 사용합니다.
+* `main` : 해당 문서의 body요소의 주 콘텐츠(main content)를 정의할 때 사용합니다.
+* `time` : 사람이 읽을 수 있는 형태의 날짜와 시간 데이터를 정의할 때 사용합니다.
